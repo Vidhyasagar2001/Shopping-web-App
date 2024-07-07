@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Product page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="circle-container">
+            <div class="circle">
+                <button id="close"><i class="fa fa-times"></i></button>
+                <button id="open"><i class="fa fa-bars"></i></button>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="header-content">
+            <h1>Apna <br><strong>Store</strong> </h1>
+        <nav>
+            <ul>
+                <li><input type="text" placeholder="Search.." name="search">
+                    <i class="fa fa-search"></i></li>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#new-arrival">NEW ARRIVALS</a></li>
+                <li><a href="#best-sellers">BEST SELLERS</a></li>
+                <li><a href="#sale">SALE</a></li>
+            </ul>
+            <div class="cart-icon">
+                <img src="cart-icon-28348.png" alt="no image">
+            </div>
+
+        </nav>
+
+    </header>
+    <main class="product-container">
+        <!-- Products -->
+        <section class="product" id="product1">
+            <img src="resistor.jpg" alt="Product1" width="250px">
+            <h2>Resistor</h2>
+            <p class="price">₹99</p>
+            <p id="info1"></p>
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="info" onclick="inform1()">Know more</button>
+        </section>
+        <section class="product" id="product1">
+            <img src="capacitor.jpg" alt="product2" width="250px">
+            <h2>capacitor</h2>
+            <p class="price">₹9</p>
+            <p id="info2"></p>
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="info" onclick="inform2()">Know more</button>
+        </section>
+        <section class="product" id="product1">
+            <img src="motor.jpg" alt="product3" width="250px">
+            <h2>Motor</h2>
+            <p class="price">₹99</p>
+            <p id="info3"></p>
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="info" onclick="inform3()">Know more</button>
+        </section>
+        <section class="product" id="product1">
+            <img src="Ultrasonic.jpg" alt="product4" width="250px">
+            <h2>Ultrasonic</h2>
+            <p class="price">₹79</p>
+            <p id="info4"></p>
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="info" onclick="inform4()">Know more</button>
+        </section>
+        <section class="product" id="product1">
+            <img src="PIR.jpg" alt="Product1" width="250px">
+            <h2>PIR Sensor</h2>
+            <p class="price">₹59</p>
+            <p id="info5"></p>
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="info" id="info" onclick="inform5()">Know more</button>
+        </section>
+        <section class="product" id="product1">
+            <img src="Bluetooth.jpg" alt="product2" width="250px">
+            <h2>BT Module</h2>
+            <p class="price">₹99</p>
+            <p id="info6"></p>
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="info" onclick="inform6()">Know more</button>
+        </section>
+        <section class="product" id="product1">
+            <img src="ESP32.jpg" alt="product3" width="250px">
+            <h2>ESP32 Cam</h2>
+            <p class="price">₹799</p>
+            <p id="info7"></p>
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="info" onclick="inform7()">Know more</button>
+        </section>
+        <section class="product" id="product1">
+            <img src="Arduino.jpg" alt="product4" width="250px">
+            <h2>Arduino UNO</h2>
+            <p class="price">₹499</p>
+            <p id="info8"></p>
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="info" onclick="inform8()">Know more</button>
+        </section>
+        <section class="product" id="product1">
+            <img src="jumper.jpg" alt="product4" width="250px">
+            <h2>Jumper Wire</h2>
+            <p class="price">₹49</p>
+            <p id="info9"></p>
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="info" onclick="inform9()">Know more</button>
+        </section>
+        <section class="product" id="product1">
+            <img src="moisture-sensor.jpg" alt="product4" width="250px">
+            <h2>Moisture-sensor</h2>
+            <p class="price">₹99</p>
+            <p id="info10"></p>
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="info" onclick="inform10()">Know more</button>
+        </section>
+        <section class="product" id="product1">
+            <img src="LCD 16x2_2.jpg" alt="product4" width="250px">
+            <h2>16x2 LCD</h2>
+            <p class="price">₹159</p>
+            <p id="info11"></p>
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="info" onclick="inform11()">Know more</button>
+        </section>
+    </main>
+    <footer>
+         <p>&copy; 2024 Our Online Store. All rights reserved.</p>
+    </footer>
+    
+</body>
+<script src="script.js"></script>
+</html>
